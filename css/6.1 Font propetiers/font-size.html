@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Font-Size</title>
+    <style>
+      #pixel {
+        font-size: 20px;
+      }
+
+      #point {
+        font-size: 20pt;
+      }
+
+      #em {
+        font-size: 2em;
+      }
+
+      #rem {
+        font-size: 1rem;
+      }
+
+      footer {
+        font-size: 12pt;
+      }
+
+      html {
+        font-size: xx-large;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p id="pixel">1 Pixel is 1/96 of an Inch</p>
+    <p id="point">1 Point is 1/72 of an Inch</p>
+    <footer>
+      <p id="em">é proporcional à tag pai. A tag pai do p é o footer, como o footer possui 12pt, isso quer dizer que essa tah p terá 24pt</p>
+      <p id="rem">proporcional à tag html</p>
+    </footer>
+  </body>
+</html>
