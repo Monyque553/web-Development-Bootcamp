@@ -1,0 +1,27 @@
+*{
+    background-color: black;
+}
+
+
+#img-spider{
+    border: 5px solid white;
+    width: 100%;
+}
+
+
+.div{
+    color: aliceblue;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    font-family: 'Libre Baskerville';
+
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+
+
